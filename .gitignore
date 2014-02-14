@@ -1,0 +1,12 @@
+# OS File system
+.Spotlight-V100
+.Trashes
+.DS_Store
+._*
+
+# Build and Release Folders
+archive/
+build/
+
+# sass cache folder
+resources/sass/.sass-cache/
