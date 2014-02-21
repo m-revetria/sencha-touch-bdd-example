@@ -4,10 +4,19 @@ Ext.define('SenchaBDD.store.Colors', {
   config: {
     storeId: 'colors_store',
     fields: ['color'],
-    autoload: true,
+    autoload: false,
+    root: 'colors',
     proxy: {
       type: 'ajax',
-      url: '/colors.json'
+      url: '/colors.json',
+      noCache:    false,
+      pageParam:  false,
+      startParam: false,
+      limitParam: false,
+      reader: {
+        type: "json",
+        rootProperty: "colors"
+      }
     }
   }
 });

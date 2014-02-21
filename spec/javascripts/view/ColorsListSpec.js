@@ -21,4 +21,5 @@ describe('SenchaBDD.view.ColorsList', function() {
       return el.textContent;
     }).join(', ')).toEqual('red, blue, green');
   });
+
 });
