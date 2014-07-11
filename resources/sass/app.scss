@@ -8,3 +8,11 @@
 
 // Examples of using the icon mixin:
 // @include icon('user');
+
+.x-field-invalid {
+  border: 1px solid red;
+
+  input {
+    color: red;
+  }
+}

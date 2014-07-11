@@ -638,9 +638,12 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "SenchaBDD.controller.Login": [],
+  "SenchaBDD.controller.Main": [],
   "SenchaBDD.model.User": [],
   "SenchaBDD.store.Colors": [],
   "SenchaBDD.view.ColorsList": [],
+  "SenchaBDD.view.Login": [],
   "SenchaBDD.view.Main": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1360,10 +1363,17 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "SenchaBDD.controller.Login": [],
+  "SenchaBDD.controller.Main": [],
   "SenchaBDD.model.User": [],
   "SenchaBDD.store.Colors": [],
-  "SenchaBDD.view.ColorsList": [],
+  "SenchaBDD.view.ColorsList": [
+    "widget.color_list"
+  ],
+  "SenchaBDD.view.Login": [
+    "widget.login"
+  ],
   "SenchaBDD.view.Main": [
-    "widget.main"
+    "widget.home"
   ]
 });

@@ -17,9 +17,15 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
+    controllers: [
+        'Login',
+        'Main'
+    ],
+
     views: [
         'ColorsList',
-        'Main'
+        'Login',
+        'Main',
     ],
 
     stores: [
@@ -47,8 +53,9 @@ Ext.application({
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('SenchaBDD.view.Main'));
+        
+        // Initialize the login view
+        Ext.Viewport.add(Ext.create('SenchaBDD.view.Login'));
     },
 
     onUpdated: function() {
